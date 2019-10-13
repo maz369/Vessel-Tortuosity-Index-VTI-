@@ -1,5 +1,5 @@
 # Vessel-Tortuosity-Index-VTI-
-A reliable technique for quantification of vessel tortuosity for MATLAB.
+A reliable technique for quantification of vessel tortuosity in MATLAB.
 
 
 ## Background
