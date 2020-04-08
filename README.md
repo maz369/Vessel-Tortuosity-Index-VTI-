@@ -7,7 +7,7 @@ VTI is a mathematical model for assessing tortuosity of vessels and curvilinear 
 for analysis of 2D retinal vessels but is applicable to other vessels and curve structure, defined by x and y coordinates
 of the centerline of the vessel/object.
 
-Retina is a light sensitive tissue located in the back of the eye which converts the light into signal and send it to 
+Retina is a light sensitive tissue located in the back of the eye which convert the light into signal and send it to 
 the brain, enabling you to see. Retinal vessels are straight or mildly curved in a healthy eye (left figure). However, in 
 many sight threatening diseases such as diabetic retinopathy, the vessels become twisted (right figure).
 
