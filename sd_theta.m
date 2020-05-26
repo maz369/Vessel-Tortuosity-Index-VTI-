@@ -1,5 +1,5 @@
 % Compute standard deviation (SD) of angles between lines tangent to each pixel on the
-% centerline and a reference-axis (i.e. x-axis) for a curve defined by x & y coordinates.
+% centerline and a reference-axis (i.e. x-axis) for a curvalinear object defined by x & y coordinates.
 
 % Please cite the following paper if you use this code :)
 % Khansari, et al. "Method for quantitative assessment of retinal vessel tortuosity in % optical coherence 
