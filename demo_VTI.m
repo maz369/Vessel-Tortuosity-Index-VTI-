@@ -2,7 +2,7 @@
 % Amplitude and frequency of the curve can be adjusted to obtain more curve and compare the result.
 % This is an example and in real applications VTI value is generally much smaller for vessels (VTI < 10).
 
-% Please cite the following paper if you are using this code :)
+% Please cite the following paper if you are using this code. THANK YOU.
 % Khansari, et al. "Method for quantitative assessment of retinal vessel tortuosity in % optical coherence 
 % tomography angiography applied to sickle cell retinopathy." Biomedical optics express 8.8 (2017):3796-3806.
 
