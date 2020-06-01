@@ -35,7 +35,7 @@ for k = 1:1:length(x)-1
     theta(k) = angle;
 end
 
-% if show option is true (i.e. is_show=1), make the plot
+% if show option is true (i.e. is_show=1), prepare a visualization
 if isshow == 1
     for k = 1:length(x)-1
         hold on
