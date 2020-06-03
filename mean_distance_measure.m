@@ -23,8 +23,8 @@ N = 0;
 %% curvature approximation
 dx = diff(x); % 1st derivative of x vlaues
 dy = diff(y); % 1st derivative of y values
-dx2 = (dx(1:end-1)+dx(2:end))/2; % 2nd derivative of x values
-dy2 = (dy(1:end-1)+dy(2:end))/2; % 2nd derivative of y values
+dx2 = (dx(1:end-1) + dx(2:end))/2; % 2nd derivative of x values
+dy2 = (dy(1:end-1) + dy(2:end))/2; % 2nd derivative of y values
 
 % remove the last element to match length of the 1st and 2nd derivatives to enable vector multiplication
 dx = dx(1:end-1);
