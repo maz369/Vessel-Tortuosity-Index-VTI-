@@ -1,4 +1,4 @@
-function [arclen,seglen] = arc_length(px,py,varargin)
+function [arclen,seglen] = arc_length(px, py, varargin)
 # Following lines are commented since they are not used in the current development.
 % arclength: compute arc length of a space curve, or any curve represented as a sequence of points
 % usage: [arclen,seglen] = arclength(px,py)         % a 2-d curve
@@ -44,7 +44,6 @@ function [arclen,seglen] = arc_length(px,py,varargin)
 %  seglen - arclength of each independent curve segment
 %           there will be n-1 segments for which the
 %           arc length will be computed.
-%
 %
 % Example:
 % % Compute the length of the perimeter of a unit circle
