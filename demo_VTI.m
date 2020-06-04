@@ -23,6 +23,7 @@ y = amp*sin(2*pi*f*x); % sinusoidal wave
 % calculate local distance measure. Dashed black lines show tangent lines to the curve at every
 % pixel. Standard deviation of angel difference between each line and
 % x-axis was used in VTI formula.
+
 [VTI, sd, mean_dm, num_inflection_pts, num_cpts, l_arch, l_cord] = vessel_tortousity_index(x,y,1);
 fprintf('VTI: %2.2f\n', VTI)
 fprintf('centerline length: %2.2f\n', l_arch)
