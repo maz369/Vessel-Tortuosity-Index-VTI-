@@ -33,7 +33,7 @@ for ii = 1:numel(slope)-1
         % plot inflection points if is_show is True
         if isshow == 1
             hold on,
-            plot(x(ii), y(ii),'og','markers',12,'LineWidth',4');
+            plot(x(ii),y(ii),'og','markers',12,'LineWidth',4');
             pause(0.1)   
         end
     end
