@@ -42,7 +42,7 @@ function [VTI, sd, mean_dm, num_inflection_pts, num_cpts, len_arch,len_cord] = v
 % check for error
 if nargin<3
   error('insufficient arguments', ...
-    'provide x,y and is_show = 0/1')
+    'Please provide x,y and is_show = 0/1')
 end
 
 % create a plot if is_show is 1 (true) and adjust axis
