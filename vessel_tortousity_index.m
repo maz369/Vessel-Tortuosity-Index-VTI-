@@ -37,7 +37,7 @@
 % Release date: 10/10/2019
 
 %%
-function [VTI, sd, mean_dm, num_inflection_pts, num_cpts, len_arch,len_cord] = vessel_tortousity_index(x,y,is_show)
+function [VTI, sd, mean_dm, num_inflection_pts, num_cpts, len_arch, len_cord] = vessel_tortousity_index(x, y, is_show)
 
 % check for error
 if nargin<3
