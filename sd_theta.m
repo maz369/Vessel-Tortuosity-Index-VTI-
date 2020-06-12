@@ -39,7 +39,7 @@ end
 if isshow == 1
     for k = 1:length(x)-1
         hold on
-        tan_line=(x-x(k))*dy(k)+y(k);
+        tan_line = (x-x(k))*dy(k)+y(k);
         plot(x,tan_line,':k','LineWidth',0.005);
         pause(10^-19);
     end
