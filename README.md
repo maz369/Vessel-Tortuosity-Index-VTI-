@@ -51,9 +51,9 @@ is_show takes value of 0 or 1. Use 1 for visualization of location of inflection
 
 *A pipline for segmentation of retinal vessels in Fundus, Optos and OCTA to extract the centerline and measure its tortuosity.* 
 
-*Function for smoothing vessel centerline for real-world applications. Note that smoothing is crucial for meaningful tortuosity analysis.*
+* A function for smoothing vessel centerline for real-world applications. Note that smoothing is crucial for meaningful tortuosity analysis.*
 
-*Function to automatically save the result in an excel file for large scale analysis of eye images.*
+*A function to automatically save the result in an excel file for large scale analysis of eye images.*
 
 
 ## Citation
