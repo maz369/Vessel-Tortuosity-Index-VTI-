@@ -40,7 +40,7 @@ k = k+eps; % adding epsilon to avoid zero values. Due to discrete integral, infl
 for i = 1:numel(k)-1  % number of times slope sign changed along the curve
     previos = k(i);
     current = k(i+1);
-    if previos*current < 0  % points of convexity change
+    if previos * current < 0  % points of convexity change
         N = N+1; % count number of inflection points       
         if N == 1  % DM between the first point on the curve and the first inflection point
             idx = i+1;
@@ -54,13 +54,15 @@ for i = 1:numel(k)-1  % number of times slope sign changed along the curve
                 plot(x(idx),y(idx),'or','LineWidth',2);
                 line([x(1),x(idx)],[y(1),y(idx)],'LineWidth',2);
                 plot(x(1:idx),y(1:idx),'r'); pause(0.05)       
-            end            
+            end    
+            
         elseif N > 1 % compute DM for the 2nd and the rest of infleciton points
             idx_ifp = idx_ifp+1;
             idx = i+1; % Index for saving DM value.
             chord_len = sqrt((x(idx)-x(previous_pt))^2+(y(idx)-y(previous_pt))^2); % chord length between inflection points
             [arc_len,~] = arc_length(x(previous_pt:idx),y(previous_pt:idx)); % arc length between inflection points
             DM(idx_ifp) = arc_len/chord_len;   % DM between the inflection points.
+            
             % plot inflection points if is_show is True
             if isshow == 1
                 hold on all,plot(x(idx),y(idx),'or','LineWidth',2);
@@ -68,6 +70,7 @@ for i = 1:numel(k)-1  % number of times slope sign changed along the curve
                 line([x(previous_pt),x(idx)],[y(previous_pt),y(idx)],'LineWidth',2);
                 plot(x(previous_pt:idx),y(previous_pt:idx),'r'); pause(0.2)     
             end
+            
             previous_pt = idx;
         end
     end
