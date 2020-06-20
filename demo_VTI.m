@@ -6,7 +6,7 @@
 % Khansari, et al. "Method for quantitative assessment of retinal vessel tortuosity in % optical coherence 
 % tomography angiography applied to sickle cell retinopathy." Biomedical optics express 8.8 (2017):3796-3806.
 
-% written by Maz M. Khansari (summer 2017)
+% written by Maz M. Khansari (2017)
 % maziyar.khansari@gmail.com
 
 %% create a sinusoidal wave
