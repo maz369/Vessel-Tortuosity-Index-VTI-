@@ -1,6 +1,6 @@
 % This demo shows calculation of vessel tortuosity index (VTI) for a simulated sinusoidal curve.
 % Amplitude and frequency of the curve can be adjusted to obtain more curve and compare the result.
-% This is an example and in real applications VTI value is generally much smaller for vessels (VTI < 10).
+% This is an example and in real applications VTI value is generally much smaller for vessels (VTI<10).
 
 % Please cite the following paper if you are using this code.
 % Khansari, et al. "Method for quantitative assessment of retinal vessel tortuosity in % optical coherence 
