@@ -29,7 +29,7 @@ for k = 1:1:length(x)-1
     % save slopes in a vector
     slope(k) = coefficients(1);     
     m2 = coefficients(1);
-    % compute angle between the tangent line and the x-axis (m1 = 0)
+    % compute angle between the tangent line and the x-axis (m1=0)
     angle = atan((m1-m2)/(1+m1*m2))*(180/pi);
     % save angle in a vector
     theta(k) = angle;
