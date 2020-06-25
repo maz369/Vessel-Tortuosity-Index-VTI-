@@ -33,9 +33,9 @@ dy = dy(1:end-1);
 k = (((dx.*dy2)-(dx2.*dy)))./((((dx).^2)+((dy).^2)).^(3/2)); % curvature of the curve based on x and y coordinates
 k = k+eps; % adding epsilon to avoid zero values. Due to discrete integral, inflection points can be very close to zero
 
-%% Detecting points of changes in sign of the curvature (inflection points).
+%% Detecting points of changes in sign of the curvature (inflection points)
 % *** The DM between the 1st point on the curve and the first inflection point was computed separately. Similarly, DM between the last inflection
-% point and the end point of the vessel segment was computed separetly.
+% point and the end point of the vessel segment was computed separetly
 
 for i = 1:numel(k)-1  % number of times slope sign changed along the curve
     previos = k(i);
