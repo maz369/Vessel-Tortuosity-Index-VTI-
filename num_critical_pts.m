@@ -18,7 +18,7 @@ slope = zeros(1,length(x)-1); % pre-allocate to avoid memory fragmentation
 
 % compute slope of tangent lines for every pixel along the curve
 for k = 1:1:length(x)-1              
-    tang = (x-x(k))*dy(k)+y(k); % tangent line to the curve.
+    tang = (x-x(k))*dy(k)+y(k); % tangent line to the curve
     coefficients = polyfit(x,tang,1);  % slope of the tangent line
     slope(k) = coefficients(1); % save slope
 end
@@ -39,7 +39,7 @@ for ii = 1:numel(slope)-1
     end
 end
 
-% if there is no critical point, set it to 1 so it will not affect final VTI value
+% if there is no critical point, set it to 1 so it will not affect final tortuosity measure
 if N == 0
     N = 1;
 end
