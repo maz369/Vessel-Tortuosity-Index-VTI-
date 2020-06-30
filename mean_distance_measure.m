@@ -1,5 +1,5 @@
 % Mean distance measure (DM) between points where the convexity of a curve changes. The curve or vessel 
-% centerline is defined by x & y coordinates.
+% centerline is defined by x and y coordinates.
 
 % Distance measure is the ratio of vessel length to its chord length. This can be used as a rough approximation 
 % of tortuosity. However, this global estimation may not match human perception of tortuosity (Grisan, et al
