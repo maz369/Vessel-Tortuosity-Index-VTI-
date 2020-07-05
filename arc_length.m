@@ -9,7 +9,7 @@ function [arclen,seglen] = arc_length(px, py, varargin)
 % Computes the arc length of a function or any
 % general 2-d, 3-d or higher dimensional space
 % curve using various methods.
-%
+
 % arguments: (input)
 %  px, py, pz, ... - vectors of length n, defining points
 %        along the curve. n must be at least 2. Replicate
