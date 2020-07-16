@@ -39,7 +39,7 @@ for ii = 1:numel(slope)-1
     end
 end
 
-% if there is no critical point, set it to 1 so it will not affect final tortuosity measure
+% if there is no critical point, set it to 1 so it will not affect final tortuosity measurement
 if N == 0
     N = 1;
 end
