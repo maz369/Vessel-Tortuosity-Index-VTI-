@@ -4,7 +4,7 @@
 % x & y represent coordinates of vessel centerline or any curvilinear shape.
 
 % is_show equals 1 for graphical demonstration, otherwise set to 0. This option is to help with obtaining 
-% an intuitive understanding of parameters and can be set to 0 in a real application.
+% an intuitive understanding of parameters and can be set to 0 in a real application. 
 
 % ========================================= PARAMETER EXPLANATION ==========================================
 % VTI: vessel tortuosity index.
