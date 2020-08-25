@@ -1,7 +1,7 @@
 % Function for calculating tortuosity of vessels based on its centerline in 2D. Initially implemented for 
 % retinal vessels but theoretically applicable to any 2D curvilinear shape.
 
-% x & y represent coordinates of vessel centerline or any curvilinear shape.
+% x & y represent coordinates of vessel centerline or any curvilinear shape. 
 
 % is_show equals 1 for graphical demonstration, otherwise set to 0. This option is to help with obtaining 
 % an intuitive understanding of parameters and can be set to 0 in a real application. 
