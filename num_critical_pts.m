@@ -1,6 +1,6 @@
 % Determine number of critical points in a curve defined by x and y coordinates
 % A critical point is a point on the curve where the derivative vanishes (either zero or doesn't exist).
-% In such a point, there is a change in sign of the slope of tangent lines.
+% In such a point, there is a change in sign of the slope of tangent lines. 
 
 % Please cite the following paper if you use this code.
 % Khansari, et al. "Method for quantitative assessment of retinal vessel tortuosity in % optical coherence 
