@@ -25,7 +25,7 @@ VTI = (l_arch * sd * num_critical_pts * (mean_dm)) / l_cord where:
 VTI: vessel tortousity index
 sd: standard deviation of the angels between lines tangent to every pixel along the centerline.
 mean_dm: average distance measure between inflection points along the centerline.
-num_critical_pts: number of critical points along the centerline.
+num_critical_pts: number of critical points along the centerline. 
 l_arch: length of vessel (arch) which is number of centerline pixels.
 l_cord: length of vessel chord which is the shortest path connecting vessel end points.
 
