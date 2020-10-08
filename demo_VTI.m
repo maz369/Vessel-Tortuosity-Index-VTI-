@@ -15,7 +15,7 @@ clearvars, close, clc
 amp = 2; % apmlitude
 x = (0:1/50:5); % time
 f = 1; % frequency
-y = amp*sin(2*pi*f*x); % sinusoidal wave
+y = amp*sin(2*pi*f*x); % sinusoidal wave 
 
 %% compute tortuosity of the simulated wave 
 % note is_show = 1, hence a plot will be generated in which yellow circles show critical points, 
