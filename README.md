@@ -13,7 +13,7 @@ many sight threatening diseases such as diabetic retinopathy, the vessels become
 
 **Research has shown tortuosity is an early sign of many vision threatening retinal diseases. Therefore, it is important
 to quantify tortuosity of vessels in the retina. Additionally, structural changes of heart and brain vessels are important 
-for diagnosis and new discoveries.**
+for diagnosis and new discoveries.** 
 
 ![image](https://user-images.githubusercontent.com/34323960/66710641-8b6f0500-ed31-11e9-8867-b53b43354e25.png)
 
