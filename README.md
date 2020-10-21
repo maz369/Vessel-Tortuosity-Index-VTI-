@@ -58,4 +58,4 @@ is_show takes value of 0 or 1. Use 1 for visualization of location of inflection
 
 ## Citation
 
-Khansari, Maziyar M., William O’Neill, Jennifer Lim, and Mahnaz Shahidi. "Method for quantitative assessment of retinal vessel tortuosity in optical coherence tomography angiography applied to sickle cell retinopathy." Biomedical optics express 8, no. 8 (2017): 3796-3806.
+Khansari, Maziyar M., William O’Neill, Jennifer Lim, and Mahnaz Shahidi. "Method for quantitative assessment of retinal vessel tortuosity in optical coherence tomography angiography applied to sickle cell retinopathy." Biomedical optics express 8, no. 8 (2017): 3796-3806.  
