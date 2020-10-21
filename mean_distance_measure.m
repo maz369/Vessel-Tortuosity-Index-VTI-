@@ -85,7 +85,7 @@ if N >= 1
     
     % plot inflection points if is_show is True
     if isshow == 1
-        hold on all, plot(x(end),y(end),'or','LineWidth',2);
+        hold on all, plot(x(end),y(end),'or','LineWidth',2); 
         plot(x(previous_pt),y(previous_pt),'or','LineWidth',2);
         line([x(previous_pt),x(end)],[y(previous_pt),y(end)],'LineWidth',2);
         plot(x(previous_pt:end),y(previous_pt:end),'r');
