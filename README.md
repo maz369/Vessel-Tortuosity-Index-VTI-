@@ -32,7 +32,7 @@ l_cord: length of vessel chord which is the shortest path connecting vessel end 
 ![image](https://user-images.githubusercontent.com/34323960/66710739-519efe00-ed33-11e9-937f-bb166be183dd.png)
 ![image](https://user-images.githubusercontent.com/34323960/66710749-77c49e00-ed33-11e9-95b8-cb7c65e075e1.png)
 
-Visual demonstration of parameters extracted from a vessel centerline for VTI computation. (a) Angle between a 
+Visual demonstration of parameters extracted from a vessel centerline for VTI computation. (a) Angle between a  
 line tangent to the centerline and a reference axis for the first centerline point. (b) Tangent lines for points 
 along the centerline. SD of angles between each tangent line and the reference axis was computed. (c) Critical 
 points (red circles) were determined based on changes in sign of slope of the tangent lines. (d) Magnitude of 
