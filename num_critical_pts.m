@@ -10,7 +10,7 @@
 % maziyar.khansari@gmail.com
 
 %%
-function N = num_critical_pts(x,y,isshow)
+function N = num_critical_pts(x,y,isshow) 
 % initialize
 N = 0;
 dy = diff(y)./diff(x); % compute ratio of derivative of y over x to determine tangent lines at each point on the curve
