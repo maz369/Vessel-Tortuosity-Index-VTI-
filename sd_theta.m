@@ -23,7 +23,7 @@ theta = zeros(1,length(x)-1);
 % repeat for all pixels of the curve
 for k = 1:1:length(x)-1
     % tangent line to the curve
-    tan_line = (x-x(k)) * dy(k)+y(k);
+    tan_line = (x-x(k)) * dy(k)+y(k); 
     % slope of tangent line.
     coefficients = polyfit(x,tan_line,1);
     % save slopes in a vector
